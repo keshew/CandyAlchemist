@@ -7,18 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86409B702D48E9E4001D8745 /* CandySpriteKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86409B6F2D48E9E4001D8745 /* CandySpriteKitExtension.swift */; };
+		864E33192D444C4500370FD0 /* CandyTrainingLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E33162D444C4500370FD0 /* CandyTrainingLoadingView.swift */; };
+		864E331A2D444C4500370FD0 /* CandyTrainingLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E33172D444C4500370FD0 /* CandyTrainingLoadingModel.swift */; };
+		864E331B2D444C4500370FD0 /* CandyTrainingLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E33182D444C4500370FD0 /* CandyTrainingLoadingViewModel.swift */; };
+		864E33202D444F0500370FD0 /* CandyTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E331D2D444F0500370FD0 /* CandyTrainingView.swift */; };
+		864E33212D444F0500370FD0 /* CandyTrainingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E331E2D444F0500370FD0 /* CandyTrainingModel.swift */; };
+		864E33222D444F0500370FD0 /* CandyTrainingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E331F2D444F0500370FD0 /* CandyTrainingViewModel.swift */; };
 		864F37A32D43B10E00541696 /* CandyAlchemistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37A22D43B10E00541696 /* CandyAlchemistApp.swift */; };
-		864F37A52D43B10E00541696 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37A42D43B10E00541696 /* ContentView.swift */; };
 		864F37A72D43B10F00541696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864F37A62D43B10F00541696 /* Assets.xcassets */; };
 		864F37AA2D43B10F00541696 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864F37A92D43B10F00541696 /* Preview Assets.xcassets */; };
+		864F37B42D43B17E00541696 /* CandyImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37B32D43B17E00541696 /* CandyImageName.swift */; };
+		864F37BA2D43B1CC00541696 /* CandyCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37B92D43B1CC00541696 /* CandyCustomButtons.swift */; };
+		864F37BC2D43B1DB00541696 /* CandyTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37BB2D43B1DB00541696 /* CandyTextExtension.swift */; };
+		864F37BE2D43B1E800541696 /* CandyTextOutlineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37BD2D43B1E800541696 /* CandyTextOutlineExtension.swift */; };
+		864F37C12D43B34100541696 /* LuckiestGuy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864F37BF2D43B2D600541696 /* LuckiestGuy-Regular.ttf */; };
+		864F37C62D43B3EB00541696 /* CandyLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37C32D43B3EB00541696 /* CandyLoadingView.swift */; };
+		864F37C72D43B3EB00541696 /* CandyLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37C42D43B3EB00541696 /* CandyLoadingModel.swift */; };
+		864F37C82D43B3EB00541696 /* CandyLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37C52D43B3EB00541696 /* CandyLoadingViewModel.swift */; };
+		864F37CD2D43B9D900541696 /* CandyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37CA2D43B9D900541696 /* CandyMenuView.swift */; };
+		864F37CE2D43B9D900541696 /* CandyMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37CB2D43B9D900541696 /* CandyMenuModel.swift */; };
+		864F37CF2D43B9D900541696 /* CandyMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37CC2D43B9D900541696 /* CandyMenuViewModel.swift */; };
+		864F37D42D43CAA500541696 /* CandyLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37D12D43CAA500541696 /* CandyLevelView.swift */; };
+		864F37D52D43CAA500541696 /* CandyLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37D22D43CAA500541696 /* CandyLevelModel.swift */; };
+		864F37D62D43CAA500541696 /* CandyLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37D32D43CAA500541696 /* CandyLevelViewModel.swift */; };
+		864F37DB2D43D09300541696 /* CandyAchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37D82D43D09300541696 /* CandyAchievementsView.swift */; };
+		864F37DC2D43D09300541696 /* CandyAchievementsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37D92D43D09300541696 /* CandyAchievementsModel.swift */; };
+		864F37DD2D43D09300541696 /* CandyAchievementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37DA2D43D09300541696 /* CandyAchievementsViewModel.swift */; };
+		864F37E22D43FE1000541696 /* CandyDetailAchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37DF2D43FE1000541696 /* CandyDetailAchievementsView.swift */; };
+		864F37E32D43FE1000541696 /* CandyDetailAchievementsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37E02D43FE1000541696 /* CandyDetailAchievementsModel.swift */; };
+		864F37E42D43FE1000541696 /* CandyDetailAchievementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37E12D43FE1000541696 /* CandyDetailAchievementsViewModel.swift */; };
+		864F37E92D44036D00541696 /* CandySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37E62D44036D00541696 /* CandySettingsView.swift */; };
+		864F37EA2D44036D00541696 /* CandySettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37E72D44036D00541696 /* CandySettingsModel.swift */; };
+		864F37EB2D44036D00541696 /* CandySettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37E82D44036D00541696 /* CandySettingsViewModel.swift */; };
+		864F37F02D440EA300541696 /* CandyRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37ED2D440EA300541696 /* CandyRulesView.swift */; };
+		864F37F12D440EA300541696 /* CandyRulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37EE2D440EA300541696 /* CandyRulesModel.swift */; };
+		864F37F22D440EA300541696 /* CandyRulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37EF2D440EA300541696 /* CandyRulesViewModel.swift */; };
+		864F37F72D441E7300541696 /* CandyShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37F42D441E7300541696 /* CandyShopView.swift */; };
+		864F37F82D441E7300541696 /* CandyShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37F52D441E7300541696 /* CandyShopModel.swift */; };
+		864F37F92D441E7300541696 /* CandyShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37F62D441E7300541696 /* CandyShopViewModel.swift */; };
+		864F37FB2D442BE100541696 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F37FA2D442BE100541696 /* Router.swift */; };
+		8667ADF72D46DA6C009965D3 /* CandyGameLoadingModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667ADF42D46DA6C009965D3 /* CandyGameLoadingModuleView.swift */; };
+		8667ADF82D46DA6C009965D3 /* CandyGameLoadingModuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667ADF52D46DA6C009965D3 /* CandyGameLoadingModuleModel.swift */; };
+		8667ADF92D46DA6C009965D3 /* CandyGameLoadingModuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667ADF62D46DA6C009965D3 /* CandyGameLoadingModuleViewModel.swift */; };
+		8667ADFE2D46DB0D009965D3 /* CandyGameModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667ADFB2D46DB0D009965D3 /* CandyGameModuleView.swift */; };
+		8667ADFF2D46DB0D009965D3 /* CandyGameModuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667ADFC2D46DB0D009965D3 /* CandyGameModuleModel.swift */; };
+		8667AE002D46DB0D009965D3 /* CandyGameModuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667ADFD2D46DB0D009965D3 /* CandyGameModuleViewModel.swift */; };
+		86D038E32D493CFC00FBE855 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D038E22D493CFC00FBE855 /* UserDefaultsManager.swift */; };
+		86D038E62D4963D700FBE855 /* CandyGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D038E52D4963D600FBE855 /* CandyGameData.swift */; };
+		86D038E92D4963F100FBE855 /* CandyGameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D038E82D4963F100FBE855 /* CandyGameSpriteKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86409B6F2D48E9E4001D8745 /* CandySpriteKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySpriteKitExtension.swift; sourceTree = "<group>"; };
+		864E33162D444C4500370FD0 /* CandyTrainingLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTrainingLoadingView.swift; sourceTree = "<group>"; };
+		864E33172D444C4500370FD0 /* CandyTrainingLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTrainingLoadingModel.swift; sourceTree = "<group>"; };
+		864E33182D444C4500370FD0 /* CandyTrainingLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTrainingLoadingViewModel.swift; sourceTree = "<group>"; };
+		864E331D2D444F0500370FD0 /* CandyTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTrainingView.swift; sourceTree = "<group>"; };
+		864E331E2D444F0500370FD0 /* CandyTrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTrainingModel.swift; sourceTree = "<group>"; };
+		864E331F2D444F0500370FD0 /* CandyTrainingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTrainingViewModel.swift; sourceTree = "<group>"; };
 		864F379F2D43B10E00541696 /* CandyAlchemist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyAlchemist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		864F37A22D43B10E00541696 /* CandyAlchemistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyAlchemistApp.swift; sourceTree = "<group>"; };
-		864F37A42D43B10E00541696 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		864F37A62D43B10F00541696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864F37A92D43B10F00541696 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		864F37B32D43B17E00541696 /* CandyImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyImageName.swift; sourceTree = "<group>"; };
+		864F37B92D43B1CC00541696 /* CandyCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyCustomButtons.swift; sourceTree = "<group>"; };
+		864F37BB2D43B1DB00541696 /* CandyTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTextExtension.swift; sourceTree = "<group>"; };
+		864F37BD2D43B1E800541696 /* CandyTextOutlineExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTextOutlineExtension.swift; sourceTree = "<group>"; };
+		864F37BF2D43B2D600541696 /* LuckiestGuy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LuckiestGuy-Regular.ttf"; sourceTree = "<group>"; };
+		864F37C02D43B2E800541696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		864F37C32D43B3EB00541696 /* CandyLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoadingView.swift; sourceTree = "<group>"; };
+		864F37C42D43B3EB00541696 /* CandyLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoadingModel.swift; sourceTree = "<group>"; };
+		864F37C52D43B3EB00541696 /* CandyLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoadingViewModel.swift; sourceTree = "<group>"; };
+		864F37CA2D43B9D900541696 /* CandyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuView.swift; sourceTree = "<group>"; };
+		864F37CB2D43B9D900541696 /* CandyMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuModel.swift; sourceTree = "<group>"; };
+		864F37CC2D43B9D900541696 /* CandyMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuViewModel.swift; sourceTree = "<group>"; };
+		864F37D12D43CAA500541696 /* CandyLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLevelView.swift; sourceTree = "<group>"; };
+		864F37D22D43CAA500541696 /* CandyLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLevelModel.swift; sourceTree = "<group>"; };
+		864F37D32D43CAA500541696 /* CandyLevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLevelViewModel.swift; sourceTree = "<group>"; };
+		864F37D82D43D09300541696 /* CandyAchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyAchievementsView.swift; sourceTree = "<group>"; };
+		864F37D92D43D09300541696 /* CandyAchievementsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyAchievementsModel.swift; sourceTree = "<group>"; };
+		864F37DA2D43D09300541696 /* CandyAchievementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyAchievementsViewModel.swift; sourceTree = "<group>"; };
+		864F37DF2D43FE1000541696 /* CandyDetailAchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDetailAchievementsView.swift; sourceTree = "<group>"; };
+		864F37E02D43FE1000541696 /* CandyDetailAchievementsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDetailAchievementsModel.swift; sourceTree = "<group>"; };
+		864F37E12D43FE1000541696 /* CandyDetailAchievementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDetailAchievementsViewModel.swift; sourceTree = "<group>"; };
+		864F37E62D44036D00541696 /* CandySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySettingsView.swift; sourceTree = "<group>"; };
+		864F37E72D44036D00541696 /* CandySettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySettingsModel.swift; sourceTree = "<group>"; };
+		864F37E82D44036D00541696 /* CandySettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySettingsViewModel.swift; sourceTree = "<group>"; };
+		864F37ED2D440EA300541696 /* CandyRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyRulesView.swift; sourceTree = "<group>"; };
+		864F37EE2D440EA300541696 /* CandyRulesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyRulesModel.swift; sourceTree = "<group>"; };
+		864F37EF2D440EA300541696 /* CandyRulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyRulesViewModel.swift; sourceTree = "<group>"; };
+		864F37F42D441E7300541696 /* CandyShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyShopView.swift; sourceTree = "<group>"; };
+		864F37F52D441E7300541696 /* CandyShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyShopModel.swift; sourceTree = "<group>"; };
+		864F37F62D441E7300541696 /* CandyShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyShopViewModel.swift; sourceTree = "<group>"; };
+		864F37FA2D442BE100541696 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8667ADF42D46DA6C009965D3 /* CandyGameLoadingModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameLoadingModuleView.swift; sourceTree = "<group>"; };
+		8667ADF52D46DA6C009965D3 /* CandyGameLoadingModuleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameLoadingModuleModel.swift; sourceTree = "<group>"; };
+		8667ADF62D46DA6C009965D3 /* CandyGameLoadingModuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameLoadingModuleViewModel.swift; sourceTree = "<group>"; };
+		8667ADFB2D46DB0D009965D3 /* CandyGameModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameModuleView.swift; sourceTree = "<group>"; };
+		8667ADFC2D46DB0D009965D3 /* CandyGameModuleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameModuleModel.swift; sourceTree = "<group>"; };
+		8667ADFD2D46DB0D009965D3 /* CandyGameModuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameModuleViewModel.swift; sourceTree = "<group>"; };
+		86D038E22D493CFC00FBE855 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		86D038E52D4963D600FBE855 /* CandyGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameData.swift; sourceTree = "<group>"; };
+		86D038E82D4963F100FBE855 /* CandyGameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameSpriteKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +123,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86409B6E2D48E9D2001D8745 /* CandySpriteKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86409B6F2D48E9E4001D8745 /* CandySpriteKitExtension.swift */,
+				86D038E52D4963D600FBE855 /* CandyGameData.swift */,
+				86D038E82D4963F100FBE855 /* CandyGameSpriteKit.swift */,
+			);
+			path = CandySpriteKitExtension;
+			sourceTree = "<group>";
+		};
+		864E33142D444C2B00370FD0 /* CandyTrainingLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				864E33162D444C4500370FD0 /* CandyTrainingLoadingView.swift */,
+				864E33172D444C4500370FD0 /* CandyTrainingLoadingModel.swift */,
+				864E33182D444C4500370FD0 /* CandyTrainingLoadingViewModel.swift */,
+			);
+			path = CandyTrainingLoadingModule;
+			sourceTree = "<group>";
+		};
+		864E331C2D444EF300370FD0 /* CandyTrainingModule */ = {
+			isa = PBXGroup;
+			children = (
+				864E331D2D444F0500370FD0 /* CandyTrainingView.swift */,
+				864E331E2D444F0500370FD0 /* CandyTrainingModel.swift */,
+				864E331F2D444F0500370FD0 /* CandyTrainingViewModel.swift */,
+			);
+			path = CandyTrainingModule;
+			sourceTree = "<group>";
+		};
 		864F37962D43B10E00541696 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +172,23 @@
 		864F37A12D43B10E00541696 /* CandyAlchemist */ = {
 			isa = PBXGroup;
 			children = (
+				864F37C02D43B2E800541696 /* Info.plist */,
 				864F37A22D43B10E00541696 /* CandyAlchemistApp.swift */,
-				864F37A42D43B10E00541696 /* ContentView.swift */,
+				8667ADFA2D46DB00009965D3 /* CandyGameModule */,
+				8667ADF32D46DA55009965D3 /* CandyGameLoadingModule */,
+				864E331C2D444EF300370FD0 /* CandyTrainingModule */,
+				864E33142D444C2B00370FD0 /* CandyTrainingLoadingModule */,
+				864F37F32D441E6600541696 /* CandyShopModule */,
+				864F37EC2D440E9600541696 /* CandyRulesModule */,
+				864F37E52D44035E00541696 /* CandySettingsModule */,
+				864F37DE2D43FDF900541696 /* CandyDetailAchievementsModule */,
+				864F37D72D43D07900541696 /* CandyAchievementsModule */,
+				864F37D02D43CA8E00541696 /* CandyLevelModule */,
+				864F37C92D43B9CC00541696 /* CandyMenuModule */,
+				864F37C22D43B39000541696 /* CandyLoadingModule */,
+				864F37B12D43B11A00541696 /* Extensions */,
+				864F37B02D43B11600541696 /* Helpers */,
+				86D038DF2D492FBC00FBE855 /* API */,
 				864F37A62D43B10F00541696 /* Assets.xcassets */,
 				864F37A82D43B10F00541696 /* Preview Content */,
 			);
@@ -65,6 +201,175 @@
 				864F37A92D43B10F00541696 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		864F37B02D43B11600541696 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				864F37B62D43B18300541696 /* CandyCustomButtons */,
+				864F37B52D43B18000541696 /* Fonts */,
+				864F37B22D43B17100541696 /* CandyImageName */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		864F37B12D43B11A00541696 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				864F37B82D43B19D00541696 /* CandyTextOutlineExtension */,
+				864F37B72D43B18A00541696 /* CandyTextExtension */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		864F37B22D43B17100541696 /* CandyImageName */ = {
+			isa = PBXGroup;
+			children = (
+				864F37B32D43B17E00541696 /* CandyImageName.swift */,
+			);
+			path = CandyImageName;
+			sourceTree = "<group>";
+		};
+		864F37B52D43B18000541696 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				864F37BF2D43B2D600541696 /* LuckiestGuy-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		864F37B62D43B18300541696 /* CandyCustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				864F37B92D43B1CC00541696 /* CandyCustomButtons.swift */,
+			);
+			path = CandyCustomButtons;
+			sourceTree = "<group>";
+		};
+		864F37B72D43B18A00541696 /* CandyTextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				864F37BB2D43B1DB00541696 /* CandyTextExtension.swift */,
+			);
+			path = CandyTextExtension;
+			sourceTree = "<group>";
+		};
+		864F37B82D43B19D00541696 /* CandyTextOutlineExtension */ = {
+			isa = PBXGroup;
+			children = (
+				864F37BD2D43B1E800541696 /* CandyTextOutlineExtension.swift */,
+			);
+			path = CandyTextOutlineExtension;
+			sourceTree = "<group>";
+		};
+		864F37C22D43B39000541696 /* CandyLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				864F37C32D43B3EB00541696 /* CandyLoadingView.swift */,
+				864F37C42D43B3EB00541696 /* CandyLoadingModel.swift */,
+				864F37C52D43B3EB00541696 /* CandyLoadingViewModel.swift */,
+				864F37FA2D442BE100541696 /* Router.swift */,
+			);
+			path = CandyLoadingModule;
+			sourceTree = "<group>";
+		};
+		864F37C92D43B9CC00541696 /* CandyMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				864F37CA2D43B9D900541696 /* CandyMenuView.swift */,
+				864F37CB2D43B9D900541696 /* CandyMenuModel.swift */,
+				864F37CC2D43B9D900541696 /* CandyMenuViewModel.swift */,
+			);
+			path = CandyMenuModule;
+			sourceTree = "<group>";
+		};
+		864F37D02D43CA8E00541696 /* CandyLevelModule */ = {
+			isa = PBXGroup;
+			children = (
+				864F37D12D43CAA500541696 /* CandyLevelView.swift */,
+				864F37D22D43CAA500541696 /* CandyLevelModel.swift */,
+				864F37D32D43CAA500541696 /* CandyLevelViewModel.swift */,
+			);
+			path = CandyLevelModule;
+			sourceTree = "<group>";
+		};
+		864F37D72D43D07900541696 /* CandyAchievementsModule */ = {
+			isa = PBXGroup;
+			children = (
+				864F37D82D43D09300541696 /* CandyAchievementsView.swift */,
+				864F37D92D43D09300541696 /* CandyAchievementsModel.swift */,
+				864F37DA2D43D09300541696 /* CandyAchievementsViewModel.swift */,
+			);
+			path = CandyAchievementsModule;
+			sourceTree = "<group>";
+		};
+		864F37DE2D43FDF900541696 /* CandyDetailAchievementsModule */ = {
+			isa = PBXGroup;
+			children = (
+				864F37DF2D43FE1000541696 /* CandyDetailAchievementsView.swift */,
+				864F37E02D43FE1000541696 /* CandyDetailAchievementsModel.swift */,
+				864F37E12D43FE1000541696 /* CandyDetailAchievementsViewModel.swift */,
+			);
+			path = CandyDetailAchievementsModule;
+			sourceTree = "<group>";
+		};
+		864F37E52D44035E00541696 /* CandySettingsModule */ = {
+			isa = PBXGroup;
+			children = (
+				864F37E62D44036D00541696 /* CandySettingsView.swift */,
+				864F37E72D44036D00541696 /* CandySettingsModel.swift */,
+				864F37E82D44036D00541696 /* CandySettingsViewModel.swift */,
+			);
+			path = CandySettingsModule;
+			sourceTree = "<group>";
+		};
+		864F37EC2D440E9600541696 /* CandyRulesModule */ = {
+			isa = PBXGroup;
+			children = (
+				864F37ED2D440EA300541696 /* CandyRulesView.swift */,
+				864F37EE2D440EA300541696 /* CandyRulesModel.swift */,
+				864F37EF2D440EA300541696 /* CandyRulesViewModel.swift */,
+			);
+			path = CandyRulesModule;
+			sourceTree = "<group>";
+		};
+		864F37F32D441E6600541696 /* CandyShopModule */ = {
+			isa = PBXGroup;
+			children = (
+				864F37F42D441E7300541696 /* CandyShopView.swift */,
+				864F37F52D441E7300541696 /* CandyShopModel.swift */,
+				864F37F62D441E7300541696 /* CandyShopViewModel.swift */,
+			);
+			path = CandyShopModule;
+			sourceTree = "<group>";
+		};
+		8667ADF32D46DA55009965D3 /* CandyGameLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				8667ADF42D46DA6C009965D3 /* CandyGameLoadingModuleView.swift */,
+				8667ADF52D46DA6C009965D3 /* CandyGameLoadingModuleModel.swift */,
+				8667ADF62D46DA6C009965D3 /* CandyGameLoadingModuleViewModel.swift */,
+			);
+			path = CandyGameLoadingModule;
+			sourceTree = "<group>";
+		};
+		8667ADFA2D46DB00009965D3 /* CandyGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				8667ADFB2D46DB0D009965D3 /* CandyGameModuleView.swift */,
+				8667ADFC2D46DB0D009965D3 /* CandyGameModuleModel.swift */,
+				8667ADFD2D46DB0D009965D3 /* CandyGameModuleViewModel.swift */,
+				86409B6E2D48E9D2001D8745 /* CandySpriteKitExtension */,
+			);
+			path = CandyGameModule;
+			sourceTree = "<group>";
+		};
+		86D038DF2D492FBC00FBE855 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				86D038E22D493CFC00FBE855 /* UserDefaultsManager.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864F37C12D43B34100541696 /* LuckiestGuy-Regular.ttf in Resources */,
 				864F37AA2D43B10F00541696 /* Preview Assets.xcassets in Resources */,
 				864F37A72D43B10F00541696 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +443,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				864F37A52D43B10E00541696 /* ContentView.swift in Sources */,
+				864F37BA2D43B1CC00541696 /* CandyCustomButtons.swift in Sources */,
+				864F37DB2D43D09300541696 /* CandyAchievementsView.swift in Sources */,
+				864F37DC2D43D09300541696 /* CandyAchievementsModel.swift in Sources */,
+				864E33202D444F0500370FD0 /* CandyTrainingView.swift in Sources */,
+				864E33212D444F0500370FD0 /* CandyTrainingModel.swift in Sources */,
+				864E33222D444F0500370FD0 /* CandyTrainingViewModel.swift in Sources */,
+				864F37DD2D43D09300541696 /* CandyAchievementsViewModel.swift in Sources */,
+				864F37E22D43FE1000541696 /* CandyDetailAchievementsView.swift in Sources */,
+				864F37E32D43FE1000541696 /* CandyDetailAchievementsModel.swift in Sources */,
+				864F37E42D43FE1000541696 /* CandyDetailAchievementsViewModel.swift in Sources */,
 				864F37A32D43B10E00541696 /* CandyAlchemistApp.swift in Sources */,
+				864F37BE2D43B1E800541696 /* CandyTextOutlineExtension.swift in Sources */,
+				8667ADF72D46DA6C009965D3 /* CandyGameLoadingModuleView.swift in Sources */,
+				8667ADF82D46DA6C009965D3 /* CandyGameLoadingModuleModel.swift in Sources */,
+				8667ADF92D46DA6C009965D3 /* CandyGameLoadingModuleViewModel.swift in Sources */,
+				864F37CD2D43B9D900541696 /* CandyMenuView.swift in Sources */,
+				864F37CE2D43B9D900541696 /* CandyMenuModel.swift in Sources */,
+				864F37CF2D43B9D900541696 /* CandyMenuViewModel.swift in Sources */,
+				86D038E32D493CFC00FBE855 /* UserDefaultsManager.swift in Sources */,
+				86D038E92D4963F100FBE855 /* CandyGameSpriteKit.swift in Sources */,
+				86D038E62D4963D700FBE855 /* CandyGameData.swift in Sources */,
+				864F37E92D44036D00541696 /* CandySettingsView.swift in Sources */,
+				864F37EA2D44036D00541696 /* CandySettingsModel.swift in Sources */,
+				864F37EB2D44036D00541696 /* CandySettingsViewModel.swift in Sources */,
+				864F37B42D43B17E00541696 /* CandyImageName.swift in Sources */,
+				864F37BC2D43B1DB00541696 /* CandyTextExtension.swift in Sources */,
+				8667ADFE2D46DB0D009965D3 /* CandyGameModuleView.swift in Sources */,
+				8667ADFF2D46DB0D009965D3 /* CandyGameModuleModel.swift in Sources */,
+				8667AE002D46DB0D009965D3 /* CandyGameModuleViewModel.swift in Sources */,
+				864F37F02D440EA300541696 /* CandyRulesView.swift in Sources */,
+				864F37F12D440EA300541696 /* CandyRulesModel.swift in Sources */,
+				864F37F22D440EA300541696 /* CandyRulesViewModel.swift in Sources */,
+				86409B702D48E9E4001D8745 /* CandySpriteKitExtension.swift in Sources */,
+				864F37D42D43CAA500541696 /* CandyLevelView.swift in Sources */,
+				864F37D52D43CAA500541696 /* CandyLevelModel.swift in Sources */,
+				864E33192D444C4500370FD0 /* CandyTrainingLoadingView.swift in Sources */,
+				864E331A2D444C4500370FD0 /* CandyTrainingLoadingModel.swift in Sources */,
+				864E331B2D444C4500370FD0 /* CandyTrainingLoadingViewModel.swift in Sources */,
+				864F37FB2D442BE100541696 /* Router.swift in Sources */,
+				864F37D62D43CAA500541696 /* CandyLevelViewModel.swift in Sources */,
+				864F37C62D43B3EB00541696 /* CandyLoadingView.swift in Sources */,
+				864F37C72D43B3EB00541696 /* CandyLoadingModel.swift in Sources */,
+				864F37C82D43B3EB00541696 /* CandyLoadingViewModel.swift in Sources */,
+				864F37F72D441E7300541696 /* CandyShopView.swift in Sources */,
+				864F37F82D441E7300541696 /* CandyShopModel.swift in Sources */,
+				864F37F92D441E7300541696 /* CandyShopViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +625,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CandyAlchemist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +655,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CandyAlchemist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
