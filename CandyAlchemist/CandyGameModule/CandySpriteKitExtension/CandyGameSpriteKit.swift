@@ -31,6 +31,7 @@ class CandyGameSpriteKit: SKScene, SKPhysicsContactDelegate {
         addTime(touchLocation: touchLocation)
         removeSpoiledItems(touchLocation: touchLocation)
         backTapped(touchLocation: touchLocation)
+        soundTapped(touchLocation: touchLocation)
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {

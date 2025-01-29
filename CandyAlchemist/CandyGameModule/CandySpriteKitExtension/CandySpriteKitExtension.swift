@@ -891,6 +891,13 @@ extension CandyGameSpriteKit {
         }
     }
     
+    func soundTapped(touchLocation: CGPoint) {
+        if let tappedNode = self.atPoint(touchLocation) as? SKSpriteNode,
+           tappedNode.name == "sound" || tappedNode.name == "soundBackground" {
+            print("sound")
+        }
+    }
+    
     func prepareTapped(touchLocation: CGPoint) {
         if let tappedNode = self.atPoint(touchLocation) as? SKSpriteNode,
            tappedNode.name == "prepareLabel" || tappedNode.name == "prepareBackButton" {

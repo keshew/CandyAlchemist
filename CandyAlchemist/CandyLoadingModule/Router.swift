@@ -68,7 +68,7 @@ final class Router: ObservableObject {
     
     func back() {
         if !path.isEmpty {
-            if path.last == CandyAlchemist.AppScreen.game || path.last == CandyAlchemist.AppScreen.rules || path.last == CandyAlchemist.AppScreen.settings {
+            if path.last == CandyAlchemist.AppScreen.level || path.last == CandyAlchemist.AppScreen.rules || path.last == CandyAlchemist.AppScreen.settings {
                 showMenu()
             } else {
                 path.removeLast()
