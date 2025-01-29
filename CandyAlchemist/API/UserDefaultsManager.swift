@@ -59,8 +59,8 @@ class UserDefaultsManager: ObservableObject {
     
     func firstLaunch() {
         if UserDefaultsManager.defaults.string(forKey: Keys.countOfMoney.rawValue) == nil {
-            UserDefaultsManager.defaults.set(1000, forKey: Keys.countOfMoney.rawValue)
-            UserDefaultsManager.defaults.set(5,  forKey: Keys.currentLevel.rawValue)
+            UserDefaultsManager.defaults.set(100, forKey: Keys.countOfMoney.rawValue)
+            UserDefaultsManager.defaults.set(1,  forKey: Keys.currentLevel.rawValue)
             UserDefaultsManager.defaults.set(0,  forKey: Keys.firstCake.rawValue)
             saveShopItems(array: arrayOfShopItems)
         }
