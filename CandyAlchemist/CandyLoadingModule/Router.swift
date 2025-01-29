@@ -12,6 +12,7 @@ enum AppScreen: Hashable {
     case training
     case gameLoading
     case game
+    case recept
 }
 
 final class Router: ObservableObject {
@@ -59,6 +60,10 @@ final class Router: ObservableObject {
     
     func showGame() {
         path.append(.game)
+    }
+    
+    func showRecept() {
+        path.append(.recept)
     }
     
     func back() {

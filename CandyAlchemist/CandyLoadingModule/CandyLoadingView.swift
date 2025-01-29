@@ -77,6 +77,8 @@ struct CandyLoadingView: View {
                         CandyGameLoadingModuleView(router: router)
                     case .game:
                         CandyGameModuleView(router: router)
+                    case .recept:
+                        CandyReceptView(router: router)
                     }
                 }
                 

@@ -55,11 +55,10 @@ struct CandyGameLoadingModuleView: View {
                 
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                     candyGameLoadingModuleModel.currentIndex = 2
-                    router.showGame()
                 }
                 
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                    router.showGame()
+                    router.showRecept()
                 }
             }
         }

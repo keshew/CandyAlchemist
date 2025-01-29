@@ -53,6 +53,9 @@
 		8667ADFE2D46DB0D009965D3 /* CandyGameModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667ADFB2D46DB0D009965D3 /* CandyGameModuleView.swift */; };
 		8667ADFF2D46DB0D009965D3 /* CandyGameModuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667ADFC2D46DB0D009965D3 /* CandyGameModuleModel.swift */; };
 		8667AE002D46DB0D009965D3 /* CandyGameModuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667ADFD2D46DB0D009965D3 /* CandyGameModuleViewModel.swift */; };
+		8674662D2D4A2A11009ACAD5 /* CandyReceptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674662A2D4A2A11009ACAD5 /* CandyReceptView.swift */; };
+		8674662E2D4A2A11009ACAD5 /* CandyReceptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674662B2D4A2A11009ACAD5 /* CandyReceptModel.swift */; };
+		8674662F2D4A2A11009ACAD5 /* CandyReceptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674662C2D4A2A11009ACAD5 /* CandyReceptViewModel.swift */; };
 		86D038E32D493CFC00FBE855 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D038E22D493CFC00FBE855 /* UserDefaultsManager.swift */; };
 		86D038E62D4963D700FBE855 /* CandyGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D038E52D4963D600FBE855 /* CandyGameData.swift */; };
 		86D038E92D4963F100FBE855 /* CandyGameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D038E82D4963F100FBE855 /* CandyGameSpriteKit.swift */; };
@@ -107,6 +110,9 @@
 		8667ADFB2D46DB0D009965D3 /* CandyGameModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameModuleView.swift; sourceTree = "<group>"; };
 		8667ADFC2D46DB0D009965D3 /* CandyGameModuleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameModuleModel.swift; sourceTree = "<group>"; };
 		8667ADFD2D46DB0D009965D3 /* CandyGameModuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameModuleViewModel.swift; sourceTree = "<group>"; };
+		8674662A2D4A2A11009ACAD5 /* CandyReceptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReceptView.swift; sourceTree = "<group>"; };
+		8674662B2D4A2A11009ACAD5 /* CandyReceptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReceptModel.swift; sourceTree = "<group>"; };
+		8674662C2D4A2A11009ACAD5 /* CandyReceptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReceptViewModel.swift; sourceTree = "<group>"; };
 		86D038E22D493CFC00FBE855 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		86D038E52D4963D600FBE855 /* CandyGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameData.swift; sourceTree = "<group>"; };
 		86D038E82D4963F100FBE855 /* CandyGameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameSpriteKit.swift; sourceTree = "<group>"; };
@@ -174,6 +180,7 @@
 			children = (
 				864F37C02D43B2E800541696 /* Info.plist */,
 				864F37A22D43B10E00541696 /* CandyAlchemistApp.swift */,
+				867466292D4A2A04009ACAD5 /* CandyReceptModule */,
 				8667ADFA2D46DB00009965D3 /* CandyGameModule */,
 				8667ADF32D46DA55009965D3 /* CandyGameLoadingModule */,
 				864E331C2D444EF300370FD0 /* CandyTrainingModule */,
@@ -364,6 +371,16 @@
 			path = CandyGameModule;
 			sourceTree = "<group>";
 		};
+		867466292D4A2A04009ACAD5 /* CandyReceptModule */ = {
+			isa = PBXGroup;
+			children = (
+				8674662A2D4A2A11009ACAD5 /* CandyReceptView.swift */,
+				8674662B2D4A2A11009ACAD5 /* CandyReceptModel.swift */,
+				8674662C2D4A2A11009ACAD5 /* CandyReceptViewModel.swift */,
+			);
+			path = CandyReceptModule;
+			sourceTree = "<group>";
+		};
 		86D038DF2D492FBC00FBE855 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,6 +488,9 @@
 				864F37BC2D43B1DB00541696 /* CandyTextExtension.swift in Sources */,
 				8667ADFE2D46DB0D009965D3 /* CandyGameModuleView.swift in Sources */,
 				8667ADFF2D46DB0D009965D3 /* CandyGameModuleModel.swift in Sources */,
+				8674662D2D4A2A11009ACAD5 /* CandyReceptView.swift in Sources */,
+				8674662E2D4A2A11009ACAD5 /* CandyReceptModel.swift in Sources */,
+				8674662F2D4A2A11009ACAD5 /* CandyReceptViewModel.swift in Sources */,
 				8667AE002D46DB0D009965D3 /* CandyGameModuleViewModel.swift in Sources */,
 				864F37F02D440EA300541696 /* CandyRulesView.swift in Sources */,
 				864F37F12D440EA300541696 /* CandyRulesModel.swift in Sources */,
